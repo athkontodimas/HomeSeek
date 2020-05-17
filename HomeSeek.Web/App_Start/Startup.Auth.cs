@@ -60,11 +60,11 @@ namespace HomeSeek.Web
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "100533648788-eevu220jji011lhmcv615023ks8nchtp.apps.googleusercontent.com",
+                ClientSecret = "fRGbvcP0BTEx5-nJ3jwXzWKK"
+            });
         }
     }
 }
